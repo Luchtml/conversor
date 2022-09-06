@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+:root {
+  --fonte-destaque: "Orbitron", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("https://img.freepik.com/fotos-gratis/fundo-abstrato-espaco-3d-com-paisagem-de-wireframe_1048-10648.jpg?w=996&t=st=1662491125~exp=1662491725~hmac=b7b87e38ebc56fd1c2840b462a9b86008921c659de9fe512fe7b025a9750cc0b");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.cabecalho {
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+
+.page-title {
+  font-size: 3em;
+  font-family: var(--fonte-destaque);
+  font-weight: 700;
+  padding-top: 75px;
+  text-align: center;
+  text-shadow: 6px 6px 6px #000000;
+}
+
+.page-subtitle {
+  text-align: center;
+  color: white;
+  margin: 10px;
+  font-size: 1.2em;
+  text-shadow: 6px 10px 6px #000000;
+}
+
+.conversor {
+  text-align: center;
+  font-family: var(--fonte-destaque);
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow: 6px 6px 6px black;
+}
+
+input#idistancia {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.botao-converter {
+  color: #000000;
+  background-color: #5FCDD9;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.botao-converter:hover {
+  background-color: #034159;
+  color: white;
+}
+.resultado {
+  box-sizing: content-box;
+  text-shadow: 6px 6px 6px rgba(0, 217, 255, 0.568);
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+
+footer {
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 1.0em;
+}
+
+footer a {
+    font-family: var(--fonte-destaque);
+    color: #5FCDD9;
+    font-weight: bold;
+}
